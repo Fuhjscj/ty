@@ -72,7 +72,7 @@ async def add_alias_wrapper(message: Message, alias_name: str, command_from: str
     await edit_message(
         message,
         f"✅ Новый алиас <<{alias_name}>> создан\n"
-        f"Команды: {new_alias.command_from} -> !л {command_to}"
+        f"Команды: {new_alias.command_from} -> .г {command_to}"
     )
 
 
