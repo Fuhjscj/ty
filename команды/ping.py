@@ -18,16 +18,16 @@ async def get_ping(message: Message, answer: str) -> str:
     if delta < 0:
         delta = "666"
 
-    return f"{answer} Модуль ЛП\n" \
-           f"Ответ через {delta} с"
+    return f"{answer} 🤑☺️Dimka live LP\n" \
+           f"❤️PING LP {delta} seconds"
 
 
-@user.on.message_handler(FromMe(), text="<prefix:service_prefix> пинг")
+@user.on.message_handler(FromMe(), text="Lp")
 @logger_decorator
 async def ping_wrapper(message: Message, **kwargs):
     await edit_message(
         message,
-        await get_ping(message, "ПОНГ")
+        await get_ping(message, "❤️PING")
     )
 
 
