@@ -1,10 +1,10 @@
 {
   "tokens": [
-    "5394665993c6bd5181975a6f3a24971ea2a66002825d6d467361b481d8172f64cf68be3ff8daf871b6073&expires_in=0&user_id=244055396",
-    "cf6af0991c62de490f1b4513162087504365d5b1ebb23f48162665b3559c616cc2c1c8f2481e719873d78&expires_in=0&user_id=244055396",
-    "b52282d20d01ba6ff6c6a2643b5b2665d69be1693a2fa8cdbbc56bc7a8e9f2f14d3e7a8a6f53e9bfb69c9&expires_in=0&user_id=244055396" 
+    "",
+    "",
+    "" 
   ],
-  "secret_code": "wglqkqevb",
+  "secret_code": "",
   "delete_all_notify": false,
   "ru_captcha_key": "",
   "ignored_members": [],
