@@ -71,8 +71,8 @@ parser.add_argument(
 def lp_startup(database):
     async def _lp_startup():
         api = UserApi.get_current()
-        text = f'IDM multi LP запущен\n' \
-               f'Текущая версия: v{const.__version__}'
+        text = f'😊Dimka live LP запущен\n' \
+               f'Установленная версия: v{const.__version__}'
         version_rest = requests.get(const.VERSION_REST).json()
 
         if version_rest['version'] != const.__version__:
