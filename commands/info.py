@@ -25,7 +25,7 @@ async def info_wrapper(message: Message, **kwargs):
         update_text = ""
 
     text = f"""
-    🤑☺️ DМL LP ❤️
+    🤑☺️ DМL LP ❤️ v{__version__}
     🔴 Ключ рукаптчи: {"✅" if db.ru_captcha_key else "❌"}
     🟠 Удаление уведомлений: {"✅" if db.delete_all_notify else "❌"}
     🟡 Выключение уведомлений: {"✅" if db.disable_notifications else "❌"}
