@@ -71,7 +71,7 @@ parser.add_argument(
 def lp_startup(database):
     async def _lp_startup():
         api = UserApi.get_current()
-        text = f'😊Dimka live LP запущен\n' \
+        text = f'😊🤑 DML LP ❤️ запущен\n' \
                f'Установленная версия: v{const.__version__}'
         version_rest = requests.get(const.VERSION_REST).json()
 
