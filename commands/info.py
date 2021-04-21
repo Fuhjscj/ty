@@ -30,7 +30,7 @@ async def info_wrapper(message: Message, **kwargs):
 
     text = f"""
     🤑☺️ DМL LP ❤️ v{__version__}
-    print now.strftime("%d-%m-%Y %H:%M")
+    {print now.strftime("%d-%m-%Y %H:%M")} 
     |🔴 Ключ рукаптчи: {"✅" if db.ru_captcha_key else "❌"}
     |🟠 Удаление уведомлений: {"✅" if db.delete_all_notify else "❌"}
     |🟡 Выключение уведомлений: {"✅" if db.disable_notifications else "❌"}
