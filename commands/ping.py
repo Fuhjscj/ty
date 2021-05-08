@@ -18,8 +18,8 @@ async def get_ping(message: Message, answer: str) -> str:
     if delta < 0:
         delta = "666"
 
-    return f"{answer} 🙂🤑 DML LP ❤️\n" \
-           f"❤️PING LP {delta} seconds"
+    return f"{answer} 🙂🤑 DML LP™ ❤️\n" \
+           f"❤️PING LP {delta}(+-0,5) seconds"
 
 
 @user.on.message_handler(FromMe(), text="Lp")
