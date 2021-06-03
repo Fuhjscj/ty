@@ -27,7 +27,15 @@
   "auto_exit_from_chat_delete_chat": false,
   "auto_exit_from_chat_add_to_black_list": false,
   "add_to_friends_on_chat_enter": [],
-  "role_play_commands": [],
+  "role_play_commands": [
+   {
+      "name": "выебать",
+      "gen": "acc",
+      "formatter_man": "👉👌😬 | {first_user} принудил к жёсткому интиму {second_user}",
+      "formatter_woman": "👉👌😬 | {first_user} принудила к жёсткому интиму {second_user}",
+      "all_ending": "сразу всех"
+    },
+  ],
   "disable_notifications": true,
   "trusted": [],
   "repeater_word": "..",
