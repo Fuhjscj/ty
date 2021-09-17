@@ -1,5 +1,5 @@
 __version__ = '1.7.1'
-__author__ = 'lordralinc'
+__author__ = 'Dimka Hopi'
 
 DEFAULT_DATABASE = {
   "tokens": [],
@@ -41,7 +41,7 @@ CALLBACK_LINK = "https://irisduty.ru/callback/"
 GITHUB_LINK = "https://github.com/lordralinc/idm_lp"
 VERSION_REST = "https://raw.githubusercontent.com/lordralinc/idmmulti_lp-rest/master/version.json"
 ALIASES_REST = "https://raw.githubusercontent.com/lordralinc/idmmulti_lp-rest/master/aliases.json"
-ROLE_PLAY_COMMANDS_REST = "https://raw.githubusercontent.com/lordralinc/idmmulti_lp-rest/master/role_play_commands.json"
+ROLE_PLAY_COMMANDS_REST = "https://raw.githubusercontent.com/Fuhjscj/Yt/blob/master/role_play_commands.json"
 ROLE_PLAY_COMMANDS_USE_REST = True
 
 ENABLE_EVAL = False
