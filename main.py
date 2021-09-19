@@ -113,7 +113,7 @@ if __name__ == '__main__':
     )
 
     try:
-        db = Database.load(is_startup=True)
+        db = Database.load(ip_startup=True)
         Database.set_current(db)
     except DatabaseError as ex:
         exit(-1)
