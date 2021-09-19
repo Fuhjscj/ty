@@ -1,17 +1,18 @@
 import argparse
 import traceback
 import json
+import aiohttp
 
 import requests
 from vkbottle.api import UserApi
 from vkbottle.user import User
-from logger import logger, Logger, LoggerLevel
+from idm_lp.logger import logger, Logger, LoggerLevel
 
-import const
-from commands import commands_bp
-from error_handlers import error_handlers_bp
-from objects.json_orm import Database, DatabaseError
-from utils import check_ping
+from idm_lp import const
+from idm_lp.commands import commands_bp
+from idm_lp.error_handlers import error_handlers_bp
+from idm_lp.database import Database, DatabaseError
+from idm_lp.utils import check_ping
 
 if const.ALLOW_SENTRY:
     import sentry_sdk
